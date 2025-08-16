@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keblawi - متجر قطع غيار السيارات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Keblawi - متجر قطع غيار السيارات</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="dashboard.html">لوحة التحكم</a>
+    </nav>
+  </header>
+  <main>
+    <section id="catalog">
+      <h2>المنتجات / Products</h2>
+      <input type="text" id="search" placeholder="بحث / Search">
+      <div id="filters">
+        <label>نوع السيارة / Car Type</label>
+        <select id="carType">
+          <option value="">الكل</option>
+          <option value="toyota">تويوتا</option>
+          <option value="hyundai">هيونداي</option>
+        </select>
+      </div>
+      <div class="product-list" id="productList"></div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Keblawi Trading</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
